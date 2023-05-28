@@ -1,0 +1,87 @@
+body {
+    background-color: #f5f5f5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Adjust the height as per your requirement */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    font-family: "Roboto", sans-serif;
+  }
+  
+  .title {
+    margin-top: 3rem; /* Adjust the margin-top as per your preference */
+    font-family: "Montserrat", sans-serif;
+    font-size: 3rem;
+    color: #333;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  }
+  
+  .main {
+    margin-top: 2rem; /* Adjust the margin-top as per your preference */
+    height: auto; /* Allow the height to adjust based on content */
+    width: 30rem; /* Adjust the width as per your preference */
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem; /* Add padding for spacing inside the form box */
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem; /* Add spacing between the form and button */
+  }
+  
+  input[type="number"] {
+    padding: 1.5rem; /* Increase the padding for a bigger input box */
+    font-size: 1.5rem; /* Increase the font size for a bigger input box */
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+    color: #333;
+    font-family: "Lato", sans-serif;
+  }
+  
+  button[type="submit"] {
+    padding: 0.5rem 2.5rem; /* Increase the padding for a bigger button */
+    font-size: 1.5rem; /* Increase the font size for a bigger button */
+    background-color: #ff5252;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family: "Playfair Display", serif;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #ff1744;
+  }
+  
+  .result {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 1rem; /* Add spacing between the button and result */
+  }
+  
+  h1,h2 {
+    margin: 0; /* Remove default margin */
+    font-family: "Lato", sans-serif;
+    font-size: 2rem; /* Increase the font size for a more prominent heading */
+    color: #ff1744; /* Adjust the color to your preferred style */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3); /* Add a subtle text shadow for a stylish effect */
+  }
+  #result{
+    padding: 2rem;
+  }
+  
